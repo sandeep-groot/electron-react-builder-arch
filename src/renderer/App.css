@@ -1,0 +1,25 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+body {
+  color: white;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+/*CUSTOMIZED GLOBAL CSS STARTS FROM HERE
+****************************************/
+
+.form-label {
+  width: 100%;
+  text-align: left;
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+  gap: 0.7rem;
+}
+
+/*CUSTOMIZED GLOBAL CSS ENDS HERE
+****************************************/
